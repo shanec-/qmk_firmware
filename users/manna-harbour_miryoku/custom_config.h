@@ -51,7 +51,7 @@ LAYOUT_split_3x5_2(\
 K00,  K01,   K02,   K03,    K04,                            K05,             K06,            K07,            K08,            K09,            \
 K10,  K11,   K12,   K13,    KC_G,                           KC_H,            KC_J,           KC_K,           KC_L,           KC_QUOT,        \
 K20,  K21,   K22,   K23,    KC_B,                           KC_N,            LCTL_T(KC_M),   LALT_T(KC_COMM),LGUI_T(KC_DOT), LSFT_T(KC_SLSH),\
-                                               LT(U_NAV,KC_ESC),   LT(U_MOUSE,KC_ENT),             LT(U_SYM,KC_SPC),K36    \
+                                               LT(U_NAV,KC_ESC),   LT(U_MOUSE,KC_ENT),             LT(U_SYM,KC_SPC),LT(U_NUM, KC_TAB)    \
 )
 
 #endif
