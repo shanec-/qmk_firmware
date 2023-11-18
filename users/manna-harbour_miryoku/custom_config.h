@@ -35,10 +35,10 @@ XXX, LSFT_T(KC_Z),  LGUI_T(KC_X),   LALT_T(KC_C),   LCTL_T(KC_V),       KC_B,   
      N30, N31, K32, K33, K34,                K35, K36, K37, N38, N39\
 )\
 LAYOUT_split_3x5_2(\
-K00,           K01,            K02,            K03,                K04,                            K05,             K06,            K07,            K08,            K09,            \
-KC_A,          KC_S,           KC_D,           KC_F,               KC_G,                           KC_H,            KC_J,           KC_K,           KC_L,           KC_QUOT,        \
-LSFT_T(KC_Z),  LGUI_T(KC_X),   LALT_T(KC_C),   LCTL_T(KC_V),       KC_B,                           KC_N,            LCTL_T(KC_M),   LALT_T(KC_COMM),LGUI_T(KC_DOT), LSFT_T(KC_SLSH),\
-                                               LT(U_NAV,KC_ESC),   LT(U_MOUSE,KC_ENT),             LT(U_SYM,KC_SPC),K36    \
+K00,            K01,            K02,            K03,                K04,                            K05,                K06,            K07,            K08,            K09,            \
+KC_A,           KC_S,           KC_D,           KC_F,               KC_G,                           KC_H,               KC_J,           KC_K,           KC_L,           KC_QUOT,        \
+LSFT_T(KC_Z),   LGUI_T(KC_X),   LALT_T(KC_C),   LCTL_T(KC_V),       KC_B,                           KC_N,               LCTL_T(KC_M),   LALT_T(KC_COMM),LGUI_T(KC_DOT), LSFT_T(KC_SLSH),\
+                                                LT(U_NAV,KC_ESC),   LT(U_MOUSE,KC_ENT),             LT(U_SYM,KC_SPC),   K36    \
 )
 
 #define MIRYOKU_LAYERMAPPING_NAV( \
@@ -48,10 +48,10 @@ LSFT_T(KC_Z),  LGUI_T(KC_X),   LALT_T(KC_C),   LCTL_T(KC_V),       KC_B,        
      N30, N31, K32, K33, K34,                K35, K36, K37, N38, N39\
 )\
 LAYOUT_split_3x5_2(\
-K00,  K01,   K02,   K03,    K04,                            K05,             K06,            K07,            K08,            K09,            \
-K10,  K11,   K12,   K13,    KC_G,                           KC_H,            KC_J,           KC_K,           KC_L,           KC_QUOT,        \
-K20,  K21,   K22,   K23,    KC_B,                           KC_N,            LCTL_T(KC_M),   LALT_T(KC_COMM),LGUI_T(KC_DOT), LSFT_T(KC_SLSH),\
-                                               LT(U_NAV,KC_ESC),   LT(U_MOUSE,KC_ENT),             LT(U_SYM,KC_TAB),K36    \
+K00,            K01,            K02,            K03,                K04,                            K05,                K06,            K07,            K08,            K09,            \
+K10,            K11,            K12,            K13,                KC_G,                           KC_LEFT,            KC_DOWN,        KC_UP,          KC_RIGHT,       KC_QUOT,        \
+K20,            K21,            K22,            K23,                KC_B,                           KC_N,               LCTL_T(KC_M),   LALT_T(KC_COMM),LGUI_T(KC_DOT), LSFT_T(KC_SLSH),\
+                                                LT(U_NAV,KC_ESC),   LT(U_MOUSE,KC_ENT),             LT(U_SYM,KC_TAB),   K36    \
 )
 
 #endif
