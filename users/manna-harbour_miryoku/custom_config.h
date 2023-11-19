@@ -37,7 +37,7 @@ XXX, LSFT_T(KC_Z),  LGUI_T(KC_X),   LALT_T(KC_C),   LCTL_T(KC_V),       KC_B,   
 LAYOUT_split_3x5_2(\
 K00,            K01,            K02,            K03,                K04,                            K05,                K06,            K07,            K08,            K09,            \
 KC_A,           KC_S,           KC_D,           KC_F,               KC_G,                           KC_H,               KC_J,           KC_K,           KC_L,           KC_QUOT,        \
-LSFT_T(KC_Z),   LGUI_T(KC_X),   LALT_T(KC_C),   LCTL_T(KC_V),       LT(U_MEDIA,KC_B),               LT(U_FUN,KC_N),     LCTL_T(KC_M),   LALT_T(KC_COMM),LGUI_T(KC_DOT), LSFT_T(KC_SLSH),\
+LSFT_T(KC_Z),   LGUI_T(KC_X),   LALT_T(KC_C),   LCTL_T(KC_V),       KC_B,                           LT(U_FUN,KC_N),     LCTL_T(KC_M),   LALT_T(KC_COMM),LGUI_T(KC_DOT), LSFT_T(KC_SLSH),\
                                                 LT(U_NAV,KC_ESC),   LT(U_MOUSE,KC_ENT),             LT(U_SYM,KC_SPC),   K36    \
 )
 
@@ -50,7 +50,20 @@ LSFT_T(KC_Z),   LGUI_T(KC_X),   LALT_T(KC_C),   LCTL_T(KC_V),       LT(U_MEDIA,K
 LAYOUT_split_3x5_2(\
 LGUI(KC_1),     LGUI(KC_2),     LGUI(KC_3),     LGUI(KC_4),         LGUI(KC_5),                     K05,                K06,            K07,            K08,            K09,            \
 LSG(KC_1),      LSG(KC_2),      LSG(KC_3),      LSG(KC_4),          LSG(KC_5),                      KC_LEFT,            KC_DOWN,        KC_UP,          KC_RIGHT,       KC_QUOT,        \
-LSFT_T(KC_Z),   LGUI_T(KC_X),   LALT_T(KC_C),   LCTL_T(KC_V),       LT(U_MEDIA,KC_B),               LT(U_FUN,KC_N),     LCTL_T(KC_M),   LALT_T(KC_COMM),LGUI_T(KC_DOT), LSFT_T(KC_SLSH),\
+LSFT_T(KC_Z),   LGUI_T(KC_X),   LALT_T(KC_C),   LCTL_T(KC_V),       KC_B,                           LT(U_FUN,KC_N),     LCTL_T(KC_M),   LALT_T(KC_COMM),LGUI_T(KC_DOT), LSFT_T(KC_SLSH),\
+                                                LT(U_NAV,KC_ESC),   LT(U_MOUSE,KC_ENT),             LT(U_SYM,KC_TAB),   K36    \
+)
+
+#define MIRYOKU_LAYERMAPPING_FUN( \
+     K00, K01, K02, K03, K04,                K05, K06, K07, K08, K09,\
+     K10, K11, K12, K13, K14,                K15, K16, K17, K18, K19,\
+     K20, K21, K22, K23, K24,                K25, K26, K27, K28, K29,\
+     N30, N31, K32, K33, K34,                K35, K36, K37, N38, N39\
+)\
+LAYOUT_split_3x5_2(\
+K00,            K01,            K02,            K03,                K04,                            K05,                K06,            K07,            K08,            K09,            \
+K10,            K11,            K12,            K13,                K14,                            KC_MPRV,            KC_VOLD,        KC_VOLU,        KC_MNXT,       KC_MUTE,        \
+K20,            K21,            K22,            K23,                K24,                            LT(U_FUN,KC_N),     LCTL_T(KC_M),   LALT_T(KC_COMM),LGUI_T(KC_DOT), LSFT_T(KC_SLSH),\
                                                 LT(U_NAV,KC_ESC),   LT(U_MOUSE,KC_ENT),             LT(U_SYM,KC_TAB),   K36    \
 )
 
